@@ -59,8 +59,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🤝 Contributing
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
----
-**GitHub Repository Details:**
-- **Recommended Name**: `research-metadata-extractor`
-- **Description**: "Automated DOI metadata extraction, JCR Impact Factor lookup, and HEC category classification tool with Gradio UI and Excel export."
-- **Topics**: `python`, `research-automation`, `doi-extractor`, `bibliometrics`, `gradio`, `crossref-api`, `jcr-impact-factor`, `hec-journals`, `academic-tools`
+
