@@ -2,6 +2,8 @@
 
 Automated DOI metadata extraction and JCR Impact Factor lookup tool for academic research portals.
 
+![Gradio UI Demo](docs/screenshots/ui_demo.png)
+ 
 ## 🌟 Features
 - **Multi-Source Extraction**: Fetches metadata from Crossref, OpenAlex, Semantic Scholar, and Unpaywall.
 - **Impact Factor Lookup**: Automatically identifies JCR Impact Factors and Quartiles (requires JCR data file).
@@ -11,9 +13,24 @@ Automated DOI metadata extraction and JCR Impact Factor lookup tool for academic
 - **Excel Export**: Export all fetched metadata to structured Excel files.
 
 ## 📁 Project Structure
-- `src/`: Core Python script (`main.py`) and original Jupyter Notebook (`research_portal_automation.ipynb`).
-- `data/`: Input datasets (HEC Journal List, DOI test files).
-- `output/`: Directory for exported Excel metadata.
+
+```text
+research-metadata-extractor/
+├── data/                       # Input datasets & lookup tables
+│   ├── national_journals_2024_25.xlsx  # HEC Journal List
+│   └── test_dois.txt           # Sample DOIs for testing
+├── docs/                       # Project documentation & visuals
+│   └── screenshots/            # UI screenshots
+├── output/                     # Exported Excel metadata (auto-generated)
+├── src/                        # Core application logic
+│   ├── main.py                 # Primary Python script (Gradio UI)
+│   └── research_portal_automation.ipynb  # Original Jupyter Notebook
+├── .gitignore                  # Git ignore rules
+├── CONTRIBUTING.md             # Contribution guidelines
+├── LICENSE                     # MIT License
+├── README.md                   # Main project documentation
+└── requirements.txt            # Python dependencies
+```
 
 ## 🚀 Getting Started
 
